@@ -1,0 +1,33 @@
+[application]
+name = "clipboard_copy"
+tailwind = true
+
+[web.app]
+
+# HTML title tag content
+title = "Clipboard_copy"
+
+[bundle]
+identifier = "com.clipboard_copy"
+publisher = "Tela"
+icon = ["icons/favicon.ico"]
+resources = ["assets/main.css", "assets/tailwind.css","assets/favicon.ico","assets/favicon.png"]
+style = ["assets/tailwind.css"]
+
+[features]
+bundle = []
+
+# include `assets` in web platform
+[web.resource]
+
+# Additional CSS style files
+style = ["assets/tailwind.css"]
+
+# Additional JavaScript files
+script = []
+
+[web.resource.dev]
+
+# Javascript code file
+# serve: [dev-server] only
+script = []
