@@ -9,7 +9,7 @@ title = "Clipboard_copy"
 
 [bundle]
 identifier = "com.clipboard_copy"
-publisher = "Tela"
+publisher = "mintminttea"
 icon = ["icons/favicon.ico"]
 resources = ["assets/main.css", "assets/tailwind.css","assets/favicon.ico","assets/favicon.png"]
 style = ["assets/tailwind.css"]
