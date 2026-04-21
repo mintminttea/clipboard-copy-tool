@@ -20,6 +20,7 @@ A lightweight, standalone Windows desktop utility built with **Rust** and **Diox
 1. Download the latest `clipboard_copy.exe` from the [Releases] tab.
 2. Copy a Base64 encoded string to your clipboard.
 3. Run the app and click **"Save File from Clipboard"**.
+PS. Dioxus for windows depends on webview2. If you have Edge installed, then Dioxus will work fine. If you don't have WebView2, then you can install it through [Microsoft](https://developer.microsoft.com/en-us/microsoft-edge/webview2/?form=MA13LH).
 
 ## 🛠️ Tech Stack
 - **Framework:** Dioxus 0.7 (Desktop)
